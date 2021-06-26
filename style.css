@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.image-section {
+    width: 30%;
+}
+
+.text-section {
+    width: 70%;
+    padding: 50px;
+    background-color: #50443e;
+}
+
+.heading-1 {
+    display: flex;
+    justify-content: left;
+    border-bottom: 1px solid #dcdcdc;
+    width: 650px;
+}
+
+.text-1 {
+    color: #ffffff;
+    font-size: 60px;
+    line-height: 84px;
+    padding: 20px;
+    font-weight: 600;
+}
+
+.input-section {
+    margin-top: 30px;
+}
+
+.input-section .inputs {
+    margin-top: 12px;
+}
+
+.input-section .inputs label {
+    padding: 10px 10px 10px 0;
+    font-size: 20px;
+}
+
+.input-section .inputs input {
+    padding: 5px;
+    background-color: #50443e;
+    border: 1px solid #f3a60f;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 20px;
+    opacity: 1;
+    appearance: none;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+input {
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 20px;
+    opacity: 1;
+}
+input:focus-visible {
+    outline: none;
+}
+.input-section .inputs input::-moz-placeholder,
+input:-moz-placeholder {
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 20px;
+    opacity: 1;
+}
+
+/* input::-webkit-input-placeholder,
+    input::-ms-input-placeholder,
+    input:-ms-input-placeholder { */
+
+input::placeholder {
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.input-section .weekly {
+    margin: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.input-section .weekly .days input {
+    width: 75px;
+}
+
+.input-section .weekly .days {
+    margin: 8px 9px;
+}
+
+.input-section .inputs .columns {
+    display: inline-block;
+}
+
+.btn {
+    padding: 15px 25px;
+    margin: 22px 10px;
+    background: #f3a60f;
+    border-radius: 20px;
+    border: 2px solid#F3A60F;
+    box-shadow: #0000000d 0px 6px 24px 0px, #00000014 0px 0px 0px 1px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28.13px;
+}
+
+.estimate {
+    border-bottom: 1px solid #dcdcdc;
+    width: 650px;
+}
+
+.btn:hover {
+    border: 2px solid #306ee0;
+}
+
+.result {
+    margin-top: 30px;
+}
+
+.text-2 {
+    color: #ffffff;
+    font-size: 60px;
+    line-height: 84px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+.image-text {
+    display: flex;
+    width: 100%;
+}
+
+.result-img {
+    width: 40%;
+}
+
+.total {
+    display: flex;
+    justify-content: space-around;
+}
+
+.result-text {
+    width: 68%;
+}
+
+.result-text h2 b {
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+table {
+    border-collapse: collapse;
+    width: 800px;
+}
+
+table tr td:nth-child(2) {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+table tr {
+    border-bottom: 1px solid #dcdcdc;
+}
+
+table tr:nth-child(1) {
+    border: none;
+}
+
+table tr td {
+    vertical-align: bottom;
+    padding-bottom: 10px;
+}
+
+.monthly {
+    position: relative;
+    margin-bottom: 12px;
+}
+
+.yearly {
+    margin-bottom: 12px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 30px;
+    padding-right: 40px;
+}
+
+.monthly::after {
+    position: absolute;
+    content: "";
+    width: 1px;
+    bottom: 0;
+    right: -61px;
+    top: -26px;
+    height: 270px;
+    background: #dcdcdc;
+}
+
+.cost {
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.datas {
+    display: flex;
+}
+
+.datas span {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.datas p {
+    padding: 15px 0;
+    font-size: 20px;
+}
+
+.right {
+    padding-left: 135px;
+}
+
+datas span {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.datas p {
+    padding: 15px 0;
+    font-size: 20px;
+}
+
+.hidden_div {
+    display: none;
+}
